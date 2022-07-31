@@ -1,0 +1,13 @@
+@import "../../style/";
+.homepage{
+  width: vw(600);
+  height: vh(800);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .img{
+    width: vw(210);
+    
+  }
+}
