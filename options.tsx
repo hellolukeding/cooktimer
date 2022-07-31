@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import HomePage from "~components/HomePage";
+import Content from "~components/Content";
+import Header from "~components/HomePage";
 import styles from "./index.module.scss";
 
 
@@ -19,8 +20,8 @@ const IndexOption: React.FC = () => {
 
   return (
     <div className={styles.option} style={{ backgroundImage: `url(${imgSrc.url})` }}>
-      <HomePage />
-
+      <Header />
+      <Content/>
       <p> {imgSrc.desc}</p>
     </div>
   )

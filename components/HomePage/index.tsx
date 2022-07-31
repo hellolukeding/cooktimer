@@ -1,13 +1,19 @@
 import styles from "./index.module.scss";
 
-const HomePage:React.FC=()=>{
+const Header: React.FC = () => {
 
 
   return (
-    <div className={styles.homepage}>
-      <img className={styles.img} src="https://uploadimgtooss.oss-cn-hangzhou.aliyuncs.com/image/2bcb0164bb4739d9d253efbe5096427a-removebg-preview.png" alt=""/>
-    </div>
+    
+      <div className={styles.header}>
+        <img src="https://typora-noteimage-lukeding.oss-cn-hangzhou.aliyuncs.com/imgage/123-removebg-preview.png" alt="" />
+        <div className={styles.dec}>
+          <h3>cooktimer</h3>
+          <h5>To take time efficiently</h5>
+        </div>
+      </div>
+    
   )
 }
 
-export default HomePage;
+export default Header;

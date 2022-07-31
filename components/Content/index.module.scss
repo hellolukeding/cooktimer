@@ -1,0 +1,11 @@
+@import "../../style/";
+
+
+.content{
+  position: relative;
+  top:30px;
+  width: vw(1200);
+  height: vh(700);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}

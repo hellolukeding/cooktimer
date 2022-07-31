@@ -1,13 +1,58 @@
 @import "../../style/";
-.homepage{
-  width: vw(600);
-  height: vh(800);
-  background-color: #fff;
+
+
+.header {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  .img{
-    width: vw(210);
-    
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%,-50%);
+
+  img {
+    width: vw(60);
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+
+  .dec {
+    margin-left: 30px;
+
+    h3 {
+      margin: 0%;
+      padding: 0%;
+      color: #fff;
+      font-style: italic;
+    }
+
+    h5 {
+      margin: 0%;
+      padding: 0%;
+      margin-top: 10px;
+      color: #fff;
+      letter-spacing: 5px;
+
+      width: 33ch;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      animation: typing 3s steps(24) infinite alternate,
+        effect step-end infinite alternate;
+    }
+  }
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes effect {
+  50% {
+    border-color: red;
   }
 }
