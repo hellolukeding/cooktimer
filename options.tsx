@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import Content from "~components/Content";
 import Header from "~components/HomePage";
-import PopupStore from "~store/PopupStore";
 import styles from "./index.module.scss";
 
 
 const IndexOption: React.FC = () => {
   const [imgSrc, setImgSrc] = useState<{ desc: string, url: string }>({ desc: "", url: "" })
   useEffect(() => {
-  PopupStore.Init()
 
     fetch("https://res.abeim.cn/api-bing_img?export=json&idx=0").then(res => res.json()).then(result => {
       if (result.code === 200) {

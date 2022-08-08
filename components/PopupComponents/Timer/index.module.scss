@@ -1,9 +1,31 @@
 @import "/style/";
 
 .timer{
-  width: 150px;
+  width: 250px;
   font-size: 32px;
   color: #41b6e6;
-  background-color: #fff;
+  background-color: #313131;
   backdrop-filter: blur(5px);
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  p{
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  .index{
+    color: #515bd4;
+    font-size: 18px;
+    .icon{
+      transform: translateY(10%);
+    }
+    p{
+      margin: 0;
+      padding: 0;
+      margin-left: 5px;
+    }
+  }
 }

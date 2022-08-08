@@ -15,9 +15,16 @@ class PopupStore{
   }
 
   public async Init(){
-    const weatherInfo=await fetch("https://api.vvhan.com/api/weather").then(res=>res)
+    const weatherInfo=await fetch("https://api.vvhan.com/api/weather").then(res=>res.json())
+    this.city=weatherInfo.city;
+    const info=weatherInfo.info;
+    this.date=info.date;
+    this.high_temp=info.high;
+    this.low_temp=info.low;
+    this.type=info.type;
+    this.week=info.week;
+    this.tips=info.tip;
    
-    console.log(weatherInfo)
   }
 
 }
