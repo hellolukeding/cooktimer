@@ -1197,10 +1197,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^15.6.0":
-  "integrity" "sha512-cj0xPUuKS+5K9UWeHMeRUc32i7qrDZNKTrW92crNphx8hMy1gVmuJVune7E7NXpFVPn6O7VazXuXeDiCvNXDhg=="
-  "resolved" "https://registry.npmmirror.com/@types/react/-/react-15.6.0.tgz"
-  "version" "15.6.0"
+"@types/react@*", "@types/react@^15.7.9":
+  "integrity" "sha512-d2Eh7kAkNQmImRaQFTz9uP55gTAOWbXgtLR7j69hej7i8fnukRY1uz9r4HaUlz35kljBrCONo1LRTwBzowpt5A=="
+  "resolved" "https://registry.npmmirror.com/@types/react/-/react-15.7.9.tgz"
+  "version" "15.7.9"
 
 "@types/responselike@*", "@types/responselike@^1.0.0":
   "integrity" "sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA=="
